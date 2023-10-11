@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+</head>
+<body>
+	<form>
+		<table>
+			<th>Academic information</th>
+			<tr>
+				<hr>
+				<td>Student ID <input type="text"></td>
+				</tr>
+				<tr>
+					<td>Degree
+						<br>
+					<select>
+						<option value="">Bachelor of Art</option>
+						<option value="">Bachelor of Science</option>
+						<option value="">Master of Business Administration</option>
+					</select>
+				</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+					<label for="">Classes Attended</label>
+					<br>
+					<textarea name="" id=" cols "2" rows="5"></textarea>
+				</td>
+				</tr>
+				<tr>
+					<td>
+					<label for="">Personal details</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="">First name </label><input type="text">
+					</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="">Last name </label><input type="text">
+					
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio"> Driver's license
+				</td>
+			</tr>
+			<tr>
+				<td>Gender: <input type="checkbox"> Male <input type="checkbox"> Female</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="">Email</label> <input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<br>
+					<textarea name="" id=""cols="30" rows="5" placeholder="TERMS AND CONDITIONS..."></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" value="Send Form">
+					<input type="reset" value="Clear Form">
+				</td>
+			</tr>
+
+			</table>
+	</form>
+</body>
+</html>
