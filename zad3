@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+</head>
+<body>
+	<form>
+		<table>
+			<tr>
+				<td>
+				<input type="Email" name=""> <label for ""> Вашият имейл</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<input type="Password" name=""> <label for ""> Вашата парола</label>
+			</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" name="">Не ме отписвай автоматично
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<a href="">Нямате профил? Регистрирайте се</a>
+				<br>
+				<a href="">Забравена парола?</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="Submit" value="ИЗПРАТИ">
+					<input type="Reset" value="ИЗЧИСТИ">
+				</td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
